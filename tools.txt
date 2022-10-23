@@ -1,0 +1,22 @@
+Talisman : https://kodekloud.com/topic/demo-talisman/
+
+Talisman  : pour securiser les infos sensibles avant de les pousser dans le repo
+https://thoughtworks.github.io/talisman/docs/installation
+Talisman can be setup as either a pre-commit or pre-push hook in a git repository.
+talisman is a security tool for the git repositories
+
+TP  Install talisman
+* pre-commit
+curl https://thoughtworks.github.io/talisman/install.sh > /tmp/install-talisman.sh
+chmod +x /tmp/install-talisman.sh
+cd /root/kubernetes-devops-security
+bash /tmp/install-talisman.sh pre-commit
+
+*pre-push
+Follow below mentioned steps for Talisman pre-push Installation/setup:
+curl https://thoughtworks.github.io/talisman/install.sh > /tmp/install-talisman.sh
+chmod +x /tmp/install-talisman.sh
+cd /root/kubernetes-devops-security
+bash /tmp/install-talisman.sh
+
+
